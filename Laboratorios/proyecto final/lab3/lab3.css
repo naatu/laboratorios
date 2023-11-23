@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.barra--nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background-color: #fff;
+}
+
+.boton-nav {
+    padding: 10px;
+    color: black;
+    transition: .4s;
+}
+
+.boton-nav:hover {
+    background-color: black;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.barra-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.boton {
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid blue;
+}

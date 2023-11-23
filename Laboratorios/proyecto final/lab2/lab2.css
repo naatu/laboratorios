@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.pagina1 {
+    background-color: green;
+}
+
+.pagina2 {
+    background-color: black;
+    color: #fff;
+}
+
+.barra--nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.boton-nav {
+    padding: 10px;
+    color: black;
+    transition: .4s;
+}
+
+.boton-nav:hover {
+    background-color: black;
+    color: white;
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
